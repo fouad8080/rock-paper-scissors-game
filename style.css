@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button{
+    
+    border: none;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+.button img{
+    width: 20dvw;
+    height: 15dvh;
+    margin-right: 0px;
+}
+#result{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    top: 35%;
+}
